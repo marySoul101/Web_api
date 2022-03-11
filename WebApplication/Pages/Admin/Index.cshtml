@@ -1,0 +1,10 @@
+﻿@page
+@model WebApplication.Pages.Admin.IndexModel
+@{
+    ViewData["deconn"] = "Authentification";
+}
+<form method="post">
+    <input type="text" name="username" placeholder="Login">
+    <input type="password" name="password" placeholder="Mot de passe">
+    <input type="submit" value="se connecter" class="btn btn-primary">
+</form>
